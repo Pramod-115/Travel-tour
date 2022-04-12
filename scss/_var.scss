@@ -1,0 +1,16 @@
+$brandblue: #478EE8;
+$brandlblue: rgb(186, 217, 255);
+$white: rgb(233, 233, 233);
+p {
+    color: rgb(198, 176, 56);
+}
+@keyframes fadeInUpp {
+    0% {
+        opacity: 0;
+        transform: translateY(+200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
